@@ -5,7 +5,7 @@ import { SiGithub, SiLinkedin } from 'react-icons/si';
 
 const Navbar = () => {
   return(
-    <section className="fixed left-0 top-0 w-full h-[9vh] z-10 bg-[#d66382] text-zinc-100">
+    <section className="fixed left-0 top-0 w-full h-[9vh] z-20 bg-[#d66382] text-zinc-100">
       <div className="flex justify-around">
         <div className="flex items-center justify-center">
           <h1 className="font-bold text-lg leading-[9vh]">olga krzysztofik</h1>

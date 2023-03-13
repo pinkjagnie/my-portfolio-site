@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 import Hero from '@/components/Hero';
+import AboutMe from '@/components/AboutMe';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <main className='bg-zinc-100'>
         <Hero />
+        <AboutMe />
       </main>
     </>
   )
