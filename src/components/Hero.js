@@ -14,7 +14,7 @@ const Hero = () => {
         <p className="text-center mx-auto pt-8 lg:text-xl lg:text-left">Jestem frontend developerką z różnorodnym doświadczeniem</p>
       </div>
 
-      <div className="bgHeroImage w-[300px] h-[300px] mt-8 mx-auto min-[600px]:min-w-[600px]w-[450px] min-[600px]:h-[450px] lg:w-[700px] lg:h-[700px] lg:-mt-12 lg:-mr-12"></div>
+      <div className="bgHeroImage w-[300px] h-[300px] mt-8 mx-auto min-[600px]:w-[450px] min-[600px]:h-[450px] lg:w-[700px] lg:h-[700px] lg:-mt-12 lg:-mr-12"></div>
     </section>
   )
 };
