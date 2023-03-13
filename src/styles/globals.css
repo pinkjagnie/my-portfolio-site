@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bgHeroImage {
+  background-image: url(../assets//my_photo-1200_1200.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
