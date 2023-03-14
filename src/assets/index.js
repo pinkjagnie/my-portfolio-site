@@ -6,11 +6,14 @@ import iconSingleCollabV1 from "./icon_single_collab_v1-600-600.png";
 import iconSingleCollabV2 from "./icon_single_collab_v2-600-600.png";
 import iconHaveIdea from "./icon_have_idea_write-600-600.png";
 
+import PixelPhoto from "./Pixel_photo-1200_1200.png";
+
 export {
   myHeroPhoto,
   iconWebsiteDesign,
   iconLongtermCollab,
   iconSingleCollabV1,
   iconSingleCollabV2,
-  iconHaveIdea
+  iconHaveIdea,
+  PixelPhoto
 }

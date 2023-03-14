@@ -2,12 +2,12 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { iconWebsiteDesign, iconLongtermCollab, iconSingleCollabV1, iconSingleCollabV2, iconHaveIdea } from '@/assets/index';
-import { SiGmail, SiLinkedin, SiGithub, SiTelegram } from 'react-icons/si';
+import { iconWebsiteDesign, iconLongtermCollab, iconSingleCollabV1, iconSingleCollabV2, iconHaveIdea, PixelPhoto } from '@/assets/index';
+import { SiGmail, SiLinkedin, SiGithub, SiTelegram, SiInstagram, SiTiktok } from 'react-icons/si';
 
 const Contact = () => {
   return(
-    <section id="contact pb-8">
+    <section id="contact" className='pb-8'>
       <h1 className='w-screen text-2xl text-center py-2 mb-6 bg-[#f7bbcb]'>Co mogę dla ciebie zrobić</h1>
 
       <div className='w-[60%] py-2 mx-auto md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 xl:flex xl:w-[80%] xl:gap-0 xl:pb-4'>
@@ -54,7 +54,19 @@ const Contact = () => {
           <SiTelegram size={30} className="text-[#d66382] pr-2" />
           <Link href="https://t.me/PinkJagnie" target="_blank" rel="noopener noreferrer" className="px-2 cursor-pointer"> wyślij mi telegram na @PinkJagnie</Link>        
         </div>
+      </div>
 
+      <div className='pt-6 w-[30%] mx-auto'>
+        <Image src={PixelPhoto} height={100} width={100} alt="Pixel" className='mx-auto' />
+        <p className='pt-2 text-center'>Lubisz pieski? Wpadnij do mojego Pixela!</p>
+        <div className='flex justify-center'>
+          <div className='cursor-pointer pr-4'>
+            <Link href="https://www.instagram.com/pixel.rad/" target="_blank" rel="noopener noreferrer" className="px-2"><SiInstagram size={30} className="text-[#d66382]" /></Link>
+          </div>
+          <div className='cursor-pointer'>
+            <Link href="https://www.tiktok.com/@pixel.rad" target="_blank" rel="noopener noreferrer" className="px-2"><SiTiktok size={30} className="text-[#d66382]" /></Link>
+          </div>
+        </div>
       </div>
     </section>
   )
