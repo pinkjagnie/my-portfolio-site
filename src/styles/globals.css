@@ -8,3 +8,31 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.axiomPreviewImage {
+  background-image: url(../assets//axiomos-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.weatherPreviewImage {
+  background-image: url(../assets//weather-app-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moviePreviewImage {
+  background-image: url(../assets//movie-app-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.chatPreviewImage {
+  background-image: url(../assets//chat-app-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

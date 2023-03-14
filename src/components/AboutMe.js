@@ -14,7 +14,7 @@ const AboutMe = () => {
         <p className="text-lg pl-4 min-[600px]:w-[60%]">Całe moje życie zawodowe doprowadziło mnie do miejsca, w którym jestem teraz. </p>
       </div>
       
-      <div className="lg:flex lg:mx-auto max-w-[1280px]">
+      <div className="lg:flex lg:mx-auto max-w-[1100px]">
         <div className="w-[90%] mx-auto text-sm min-[600px]:w-[70%] lg:w-[65%] lg:px-8">
           <p className="py-2">🛎️ Skutecznej organizacji pracy własnej oraz wyznaczania priorytetów musiałam nauczyć się bardzo szybko, bo już w wieku 18 lat zaczęłam łączyć naukę, a potem studia dzienne, z pracą.</p>
         

@@ -5,6 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 import Hero from '@/components/Hero';
 import AboutMe from '@/components/AboutMe';
+import Portfolio from '@/components/Portfolio';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <main className='bg-zinc-100'>
         <Hero />
         <AboutMe />
+        <Portfolio />
       </main>
     </>
   )
