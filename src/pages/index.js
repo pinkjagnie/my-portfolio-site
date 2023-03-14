@@ -23,7 +23,7 @@ export default function Home() {
         location="bottom"
         buttonText="Akceptuję"
         style={{ background: "#6b7280", paddingLeft: '2%', paddingRight: '2%', paddingTop: '1%', paddingBottom: '1%', margin: "0 auto", textAlign: "center" }}
-        buttonStyle={{ background: "#d66382", color: "whitesmoke", fontSize: "14px" }}
+        buttonStyle={{ background: "#d66382", color: "whitesmoke", fontSize: "14px", margin: "0 auto", textAlign: "center" }}
       >
         Ta strona wykorzystuje pliki cookies.
       </CookieConsent>
