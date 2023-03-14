@@ -1,19 +1,36 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
-import { SiMaildotru, SiGmail, SiLinkedin, SiGithub, SiTelegram } from 'react-icons/si';
+import { iconWebsiteDesign, iconLongtermCollab, iconSingleCollabV1, iconSingleCollabV2, iconHaveIdea } from '@/assets/index';
+import { SiGmail, SiLinkedin, SiGithub, SiTelegram } from 'react-icons/si';
 
 const Contact = () => {
   return(
     <section id="contact pb-8">
       <h1 className='w-screen text-2xl text-center py-2 mb-6 bg-[#f7bbcb]'>Co mogę dla ciebie zrobić</h1>
 
-      <div>
-        bbbbbbbbb
+      <div className='w-[60%] py-2 mx-auto md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 xl:flex xl:w-[80%] xl:gap-0 xl:pb-4'>
+        <div className='py-4 md:px-2'>
+          <Image src={iconWebsiteDesign} width={168} height={168} alt='collaboration' className='mx-auto'/>
+          <p className='text-center py-2 xl:w-[80%] xl:mx-auto'>Zaprojektowanie twojej strony www od podstaw</p>
+        </div>
+        <div className='py-4 md:px-2'>
+          <Image src={iconLongtermCollab} width={168} height={168} alt='collaboration' className='mx-auto'/>
+          <p className='text-center py-2 xl:w-[80%] xl:mx-auto'>Współpraca przy długofalowym projekcie</p>
+        </div>
+        <div className='py-4 md:px-2'>
+          <Image src={iconSingleCollabV1} width={168} height={168} alt='collaboration' className='mx-auto'/>
+          <p className='text-center py-2 xl:w-[80%] xl:mx-auto'>Współpraca przy pojedynczym zleceniu</p>
+        </div>
+        <div className='py-4 md:px-2'>
+          <Image src={iconHaveIdea} width={168} height={168} alt='collaboration' className='mx-auto'/>
+          <p className='text-center py-2 xl:w-[80%] xl:mx-auto'>Masz jakiś pomysł? Napisz do mnie</p>
+        </div>
       </div>
 
       <div className="relative flex flex-col items-center justify-center">
-        <p className="absolute top-2 -left-[10%] h-[30px] w-[120%] md:w-[300px] bg-[#f7bbcb]"></p>
+        <p className="absolute top-2 -left-[10%] h-[30px] w-[120%] md:w-[350px] md:left-[calc(50%-175px)] xl:w-[500px] xl:left-[calc(50%-250px)] bg-[#f7bbcb]"></p>
         <p className="text-2xl relative z-10 text-center">Skontaktuj się ze mną</p>
       </div>
 
