@@ -22,8 +22,9 @@ export default function Home() {
       <CookieConsent
         location="bottom"
         buttonText="Akceptuję"
-        style={{ background: "#6b7280", paddingLeft: '2%', paddingRight: '2%', paddingTop: '1%', paddingBottom: '1%', margin: "0 auto", textAlign: "center" }}
-        buttonStyle={{ background: "#d66382", color: "whitesmoke", fontSize: "14px", margin: "0 auto", textAlign: "center" }}
+        style={{ background: "#6b7280", paddingLeft: '2%', paddingRight: '2%', margin: "0 auto", justifyContent: "center"}}
+        buttonStyle={{ background: "#d66382", color: "whitesmoke", fontSize: "14px", textAlign: "center"}}
+        contentStyle={{ display: "flex", flex: "0 0 100%", justifyContent: "center", textAlign: "center"}}
       >
         Ta strona wykorzystuje pliki cookies.
       </CookieConsent>
