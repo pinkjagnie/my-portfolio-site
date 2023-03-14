@@ -22,10 +22,10 @@ export default function Home() {
       <CookieConsent
         location="bottom"
         buttonText="Akceptuję"
-        style={{ background: "#CBD5E1", paddingLeft: '2%', paddingRight: '2%', paddingTop: '1%', paddingBottom: '1%' }}
+        style={{ background: "#6b7280", paddingLeft: '2%', paddingRight: '2%', paddingTop: '1%', paddingBottom: '1%', margin: "0 auto", textAlign: "center" }}
         buttonStyle={{ background: "#d66382", color: "whitesmoke", fontSize: "14px" }}
       >
-        Ta strona wykorzystuje pliki cookies do prawidłowego działania.
+        Ta strona wykorzystuje pliki cookies.
       </CookieConsent>
       <main className='bg-zinc-100'>
         <Hero />
