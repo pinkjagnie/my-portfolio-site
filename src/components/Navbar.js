@@ -8,7 +8,7 @@ const Navbar = () => {
     <section className="fixed left-0 top-0 w-full h-[9vh] z-20 bg-[#d66382] text-zinc-100">
       <div className="flex justify-around">
         <div className="flex items-center justify-center">
-          <h1 className="font-bold text-lg leading-[9vh]">olga krzysztofik</h1>
+          <h1 className="font-bold text-lg leading-[9vh] pr-[4px]">olga krzysztofik</h1>
           <h1 className="hidden lg:visible lg:block lg:font-bold lg:text-lg lg:leading-[9vh]"> - pink jagnie</h1>
         </div>
         <div className="flex items-center justify-between">
