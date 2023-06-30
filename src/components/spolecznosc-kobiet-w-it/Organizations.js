@@ -36,6 +36,7 @@ const Organizations = () => {
           <Link href="https://www.womenintechnology.pl/" target="_blank" rel="noopener noreferrer" className="block cursor-pointer lg:hover:text-pink-700">Women in Technology Poland</Link>
           <p className="px-2 pt-2 italic">organizują dużo webinarów, programów szkoleniowych jak na przykład<Link href="https://www.womenintechnology.pl/go-for-java-girl " target="_blank" rel="noopener noreferrer" className="cursor-pointer lg:hover:text-pink-700"> Go for Java, girl!</Link></p>
         </div>
+        <Link href="https://www.womenwhocode.com/" target="_blank" rel="noopener noreferrer" className="block pt-4 cursor-pointer lg:hover:text-pink-700">Women who code</Link>
 
       </div>
 
