@@ -12,7 +12,7 @@ const Contact = () => {
       
       <Collaboration />
 
-      <div className="relative flex flex-col items-center justify-center">
+      <div className="relative flex flex-col items-center justify-center overflow-x-hidden">
         <p className="absolute top-2 -left-[10%] h-[30px] w-[120%] md:w-[350px] md:left-[calc(50%-175px)] xl:w-[500px] xl:left-[calc(50%-250px)] bg-[#f7bbcb]"></p>
         <p className="text-2xl relative z-10 text-center">Skontaktuj się ze mną</p>
       </div>
