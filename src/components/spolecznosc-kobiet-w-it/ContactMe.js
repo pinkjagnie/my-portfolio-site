@@ -5,7 +5,7 @@ import { SiGmail, SiLinkedin, SiInstagram, SiTelegram } from 'react-icons/si';
 
 const ContactMe = () => {
   return(
-    <section className="w-[100vw] overflow-x-hidden pt-4">
+    <section className="w-[100%] overflow-x-hidden pt-4">
       <div className="relative flex flex-col items-center justify-center">
         <p className="absolute top-2 -left-[10%] h-[30px] w-[120%] md:w-[600px] md:left-[calc(50%-300px)] lg:w-[700px] lg:left-[calc(50%-350px)] xl:w-[900px] xl:left-[calc(50%-450px)] bg-[#f7bbcb]"></p>
         <p className="text-2xl relative z-10 text-center">Skontaktuj się ze mną</p>

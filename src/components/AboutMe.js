@@ -7,7 +7,7 @@ import { GoLocation } from 'react-icons/go';
 const AboutMe = () => {
   return(
     <section id="aboutMe" className="pb-8">
-      <h1 className="w-screen text-2xl text-center py-2 bg-[#f7bbcb] lg:-mt-2">Moja zawodowa droga</h1>
+      <h1 className="w-[100%] text-2xl text-center py-2 bg-[#f7bbcb] lg:-mt-2">Moja zawodowa droga</h1>
       
       <div className="flex justify-center items-center text-center w-[90%] py-4 mx-auto min-[600px]:w-[70%] lg:w-[80%]">
         <GoLocation size={120} className="text-[#d66382]" />

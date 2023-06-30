@@ -7,7 +7,7 @@ import { RxGithubLogo } from 'react-icons/rx';
 const Portfolio = () => {
   return(
     <section id="portfolio" className='pb-8'>
-      <h1 className='w-screen text-2xl text-center py-2 mb-6 bg-[#f7bbcb]'>Moje najważniejsze projekty</h1>
+      <h1 className='w-[100%] text-2xl text-center py-2 mb-6 bg-[#f7bbcb]'>Moje najważniejsze projekty</h1>
 
       <div className='lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-2 lg:pt-4 max-w-[1100px] lg:mx-auto'>
 

@@ -6,7 +6,7 @@ import { iconWebsiteDesign, iconLongtermCollab, iconSingleCollabV1, iconSingleCo
 const Collaboration = () => {
   return(
     <section>
-      <h1 className='w-screen text-2xl text-center py-2 mb-6 bg-[#f7bbcb]'>Co mogę dla ciebie zrobić</h1>
+      <h1 className='w-[100%] text-2xl text-center py-2 mb-6 bg-[#f7bbcb]'>Co mogę dla ciebie zrobić</h1>
 
       <div className='w-[60%] py-2 mx-auto md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 xl:flex xl:w-[80%] xl:gap-0 xl:pb-4'>
         <div className='py-4 md:px-2'>
