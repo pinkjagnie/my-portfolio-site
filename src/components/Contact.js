@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Collaboration from './Collaboration';
 import PixelSM from './PixelSM';
 
-import { SiGmail, SiLinkedin, SiGithub, SiTelegram } from 'react-icons/si';
+import { SiGmail, SiLinkedin, SiInstagram, SiGithub, SiTelegram } from 'react-icons/si';
 
 const Contact = () => {
   return(
@@ -12,7 +12,7 @@ const Contact = () => {
       
       <Collaboration />
 
-      <div className="relative flex flex-col items-center justify-center overflow-x-hidden">
+      <div className="relative flex flex-col items-center justify-center overflow-hidden">
         <p className="absolute top-2 -left-[10%] h-[30px] w-[120%] md:w-[350px] md:left-[calc(50%-175px)] xl:w-[500px] xl:left-[calc(50%-250px)] bg-[#f7bbcb]"></p>
         <p className="text-2xl relative z-10 text-center">Skontaktuj się ze mną</p>
       </div>
@@ -23,19 +23,23 @@ const Contact = () => {
         
         <div className='flex flex-row items-center pb-4'>
           <SiGmail size={30} className="text-[#d66382] pr-2" />
-          <Link href="mailto:olga.krzysztofik@gmail.com" target="_blank" rel="noopener noreferrer" className="px-2 cursor-pointer"> wyślij do mnie maila na olga.krzysztofik@gmail.com</Link>
+          <Link href="mailto:olga.krzysztofik@gmail.com" target="_blank" rel="noopener noreferrer" className="px-2 cursor-pointer hover:text-pink-700"> wyślij do mnie maila na olga.krzysztofik@gmail.com</Link>
         </div>
         <div className='flex flex-row items-center pb-4'>
           <SiLinkedin size={30} className="text-[#d66382] pr-2" />
-          <Link href="https://www.linkedin.com/in/olga-krzysztofik/" target="_blank" rel="noopener noreferrer" className="px-2 cursor-pointer"> zostańmy w kontakcie na Linkedin</Link>
+          <Link href="https://www.linkedin.com/in/olga-krzysztofik/" target="_blank" rel="noopener noreferrer" className="px-2 cursor-pointer hover:text-pink-700"> zostańmy w kontakcie na Linkedin</Link>
+        </div>
+        <div className='flex flex-row items-center pb-4'>
+            <SiInstagram size={30} className="text-[#d66382] pr-2" />
+            <Link href="https://instagram.com/pinkjagnie" target="_blank" rel="noopener noreferrer" className="px-2 cursor-pointer hover:text-pink-700"> wpadnij do mnie na Insta</Link>
         </div>
         <div className='flex flex-row items-center pb-4'>
           <SiGithub size={30} className="text-[#d66382] pr-2" />
-          <Link href="https://github.com/pinkjagnie" target="_blank" rel="noopener noreferrer" className="px-2 cursor-pointer"> zobacz mojego GitHuba</Link>
+          <Link href="https://github.com/pinkjagnie" target="_blank" rel="noopener noreferrer" className="px-2 cursor-pointer hover:text-pink-700"> zobacz mojego GitHuba</Link>
         </div>
         <div className='flex flex-row items-center'>
           <SiTelegram size={30} className="text-[#d66382] pr-2" />
-          <Link href="https://t.me/PinkJagnie" target="_blank" rel="noopener noreferrer" className="px-2 cursor-pointer"> wyślij mi telegram na @PinkJagnie</Link>        
+          <Link href="https://t.me/PinkJagnie" target="_blank" rel="noopener noreferrer" className="px-2 cursor-pointer hover:text-pink-700"> wyślij mi telegram na @PinkJagnie</Link>        
         </div>
       </div>
 
