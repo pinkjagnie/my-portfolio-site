@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-import { SiGithub, SiLinkedin } from 'react-icons/si';
+import { SiGithub, SiInstagram, SiLinkedin } from 'react-icons/si';
 
 const Navbar = () => {
   return(
@@ -12,8 +12,10 @@ const Navbar = () => {
           <h1 className="hidden lg:visible lg:block lg:font-bold lg:text-lg lg:leading-[9vh]"><Link href="/"> - pink jagnie</Link></h1>
         </div>
         <div className="flex items-center justify-between">
-          <Link href="https://github.com/pinkjagnie" target="_blank" rel="noopener noreferrer" className="px-2"><SiGithub size={20} /></Link>
+          <Link href="https://instagram.com/pinkjagnie" target="_blank" rel="noopener noreferrer" className="px-2"><SiInstagram size={20} /></Link>
           <Link href="https://www.linkedin.com/in/olga-krzysztofik/" target="_blank" rel="noopener noreferrer" className="px-2"><SiLinkedin size={20} /></Link>
+          <Link href="https://github.com/pinkjagnie" target="_blank" rel="noopener noreferrer" className="px-2"><SiGithub size={20} /></Link>
+          <Link href="/spolecznosc-kobiet-w-it" className="pl-4 pr-2 font-semibold">👩🏻‍💻 kobiece IT</Link>
         </div>
       </div>
     </section>
