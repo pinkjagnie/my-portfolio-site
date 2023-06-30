@@ -5,11 +5,11 @@ import { SiGithub, SiLinkedin } from 'react-icons/si';
 
 const Navbar = () => {
   return(
-    <section className="fixed left-0 top-0 w-full h-[9vh] z-20 bg-[#d66382] text-zinc-100">
+    <section className="fixed left-0 top-0 w-full right-0 h-[9vh] z-20 bg-[#d66382] text-zinc-100">
       <div className="flex justify-around">
         <div className="flex items-center justify-center">
-          <h1 className="font-bold text-lg leading-[9vh] pr-[4px]">olga krzysztofik</h1>
-          <h1 className="hidden lg:visible lg:block lg:font-bold lg:text-lg lg:leading-[9vh]"> - pink jagnie</h1>
+          <h1 className="font-bold text-lg leading-[9vh] pr-[4px]"><Link href="/">olga krzysztofik</Link></h1>
+          <h1 className="hidden lg:visible lg:block lg:font-bold lg:text-lg lg:leading-[9vh]"><Link href="/"> - pink jagnie</Link></h1>
         </div>
         <div className="flex items-center justify-between">
           <Link href="https://github.com/pinkjagnie" target="_blank" rel="noopener noreferrer" className="px-2"><SiGithub size={20} /></Link>
