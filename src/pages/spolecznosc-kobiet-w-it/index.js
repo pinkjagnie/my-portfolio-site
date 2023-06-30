@@ -1,12 +1,12 @@
 import React from "react";
 
-import AboutCommunityDesc from "@/components/community/AboutCommunityDesc";
-import Organizations from "@/components/community/Organizations";
-import FBGroups from "@/components/community/FBGroups";
-import DiscordGroup from "@/components/community/DiscordGroup";
-import MentoringProgramms from "@/components/community/MentoringProgramms";
-import Conferences from "@/components/community/Conferences";
-import ContactMe from "@/components/community/ContactMe";
+import AboutCommunityDesc from "@/components/spolecznosc-kobiet-w-it/AboutCommunityDesc";
+import Organizations from "@/components/spolecznosc-kobiet-w-it/Organizations";
+import FBGroups from "@/components/spolecznosc-kobiet-w-it/FBGroups";
+import DiscordGroup from "@/components/spolecznosc-kobiet-w-it/DiscordGroup";
+import MentoringProgramms from "@/components/spolecznosc-kobiet-w-it/MentoringProgramms";
+import Conferences from "@/components/spolecznosc-kobiet-w-it/Conferences";
+import ContactMe from "@/components/spolecznosc-kobiet-w-it/ContactMe";
 
 const femaleCommunityPage = () => {
   return(
