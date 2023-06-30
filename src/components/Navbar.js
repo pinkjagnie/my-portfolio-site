@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 
-import { SiGithub, SiInstagram, SiLinkedin } from 'react-icons/si';
+import MobileMenu from "./Navigation/MobileMenu";
+import DesktopMenu from "./Navigation/DesktopMenu";
 
 const Navbar = () => {
   return(
@@ -9,14 +10,10 @@ const Navbar = () => {
       <div className="flex justify-around">
         <div className="flex items-center justify-center">
           <h1 className="font-bold text-lg leading-[9vh] pr-[4px]"><Link href="/">olga krzysztofik</Link></h1>
-          <h1 className="hidden lg:visible lg:block lg:font-bold lg:text-lg lg:leading-[9vh]"><Link href="/"> - pink jagnie</Link></h1>
+          <h1 className="hidden md:visible md:block font-bold text-lg leading-[9vh]"><Link href="/"> - pink jagnie</Link></h1>
         </div>
-        <div className="flex items-center justify-between">
-          <Link href="https://instagram.com/pinkjagnie" target="_blank" rel="noopener noreferrer" className="px-2"><SiInstagram size={20} /></Link>
-          <Link href="https://www.linkedin.com/in/olga-krzysztofik/" target="_blank" rel="noopener noreferrer" className="px-2"><SiLinkedin size={20} /></Link>
-          <Link href="https://github.com/pinkjagnie" target="_blank" rel="noopener noreferrer" className="px-2"><SiGithub size={20} /></Link>
-          <Link href="/spolecznosc-kobiet-w-it" className="pl-4 pr-2 font-semibold">👩🏻‍💻 kobiece IT</Link>
-        </div>
+        <MobileMenu />
+        <DesktopMenu />
       </div>
     </section>
   )
