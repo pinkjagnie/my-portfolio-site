@@ -17,8 +17,13 @@ const Organizations = () => {
           <Link href="https://gocarrots.org/" target="_blank" rel="noopener noreferrer" className="block cursor-pointer lg:hover:text-pink-700">Geek Girls Carrots</Link>
           <p className="px-2 pt-2 text-xs italic">Na początku 2023 roku Fundacja Carrots wstrzymała działalność, ale nie wykluczyła powrotu w  nowej odsłonie - dlatego umieszczam tutaj link do niej</p>
         </div>
+        <Link href="https://girlscodefun.pl/" target="_blank" rel="noopener noreferrer" className="block pt-4 cursor-pointer lg:hover:text-pink-700">Girls code fun</Link>
         <Link href="https://poland.girlsintech.org/" target="_blank" rel="noopener noreferrer" className="block pt-4 cursor-pointer lg:hover:text-pink-700">Girls in Tech Poland</Link>
         <Link href="https://girlsjs.pl/" target="_blank" rel="noopener noreferrer" className="block pt-4 cursor-pointer lg:hover:text-pink-700">girls.js</Link>
+        <div className="pt-4">
+          <Link href="http://www.girlswhotest.pl/" target="_blank" rel="noopener noreferrer" className="block cursor-pointer lg:hover:text-pink-700">Girls who test</Link>
+          <p className="px-2 pt-2 text-xs italic">Ostatni wpis na fan page organizacji pochodzi z listopada 2022 roku, ale postanowiłam ją uwzględnić, bo może w momencie, gdy trafiłaś na tę listę, to organizacja wznowiła działalność</p>
+        </div>
         <Link href="https://www.kobietyebiznesu.pl/" target="_blank" rel="noopener noreferrer" className="block pt-4 cursor-pointer lg:hover:text-pink-700">Kobiety e-biznesu</Link>
         <Link href="https://mamopracuj.pl/mamo-pracuj-w-it/" target="_blank" rel="noopener noreferrer" className="block pt-4 cursor-pointer lg:hover:text-pink-700">Mamo pracuj w IT</Link>
         <div className="pt-4">
